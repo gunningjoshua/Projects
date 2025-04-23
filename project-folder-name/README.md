@@ -1,4 +1,4 @@
-# Forecasting CPI Using Rent Data (ZORI) and Time Series Models
+# Forecasting Consumer Price Index Using Zillow's Rental Data
 
 ## Introduction
 
