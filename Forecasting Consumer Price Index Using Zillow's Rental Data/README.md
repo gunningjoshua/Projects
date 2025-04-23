@@ -51,6 +51,8 @@ Forecasts were generated for the next 4 months (June to September 2022) and eval
 
 ## Conclusion
 
-After evaluating both approaches, the VAR model outperformed the standalone ARIMA model in terms of precision. While the ARIMA(2,3,1) model achieved an RMSE of **3.37** on raw CPI values, the VAR model, using log-transformed and differenced series, reached a much lower RMSE of **0.0326** for log CPI and **0.0213** for log ZORI.
+After evaluating both approaches, the VAR model outperformed the standalone ARIMA model in terms of predictive accuracy. While the ARIMA(2,3,1) model achieved a Root Mean Squared Error (RMSE) of **3.37** on raw CPI values, the VAR model—using log-transformed and differenced data—reduced the forecast error significantly, achieving an RMSE of **0.0326** for log CPI and **0.0213** for log ZORI.
 
-This project highlights how including economic indicators like rent can improve inflation forecasting. It also reinforced the importance of proper data preprocessing, stationarity checks, model diagnostics, and selecting the appropriate modeling approach. By combining economic reasoning with time series analysis, we showed how multivariate models can capture relationships that improve forecast accuracy.
+To put this into context, even small RMSE values in log-scale forecasting indicate highly precise predictions, since they correspond to very minor deviations from actual percentage changes in price levels. This means the VAR model was able to closely track how prices actually moved over time—month by month.
+
+Overall, this project highlighted how incorporating additional economic indicators like rent can strengthen inflation forecasting. It also reinforced the value of proper data preprocessing, testing for stationarity, evaluating model diagnostics, and selecting the right modeling strategy. By combining economic reasoning with time series analysis, this project demonstrated how multivariate approaches like VAR can capture meaningful relationships between variables and lead to more reliable predictions of inflation.
