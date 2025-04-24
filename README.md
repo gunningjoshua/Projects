@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-Thank you for visiting my projects repository. My name is Joshua Gunning, and I’m passionate about applying data science, economics, and statistical modeling to uncover meaningful insights. This repository showcases a curated set of projects that reflect my technical skills, analytical thinking, and interest in data-driven problem solving.
+Thank you for visiting my projects repository. My name is Joshua Gunning, and I’m passionate about applying data science and economics to uncover meaningful insights. This repository showcases a curated set of projects that reflect my technical skills, analytical thinking, and interest in data-driven problem solving.
 
 Each project combines real-world datasets with statistical tools, predictive modeling, and clear interpretation. Feel free to explore the folders below for full notebooks, code, and results.
 
